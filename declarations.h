@@ -1,3 +1,6 @@
+#ifndef DECLARATIONS_DOT_H
+#define DECLARATIONS_DOT_H
+
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
@@ -11,3 +14,5 @@ extern int numberOfMinorColors ;
     enum MajorColor majorColor;
     enum MinorColor minorColor;
 } ColorPair;
+
+#endif
