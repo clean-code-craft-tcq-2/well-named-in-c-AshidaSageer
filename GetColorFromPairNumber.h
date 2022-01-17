@@ -1,1 +1,2 @@
 GetColorFromPairNumber
+ColorPair GetColorFromPairNumber(int pairNumber);
