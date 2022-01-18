@@ -1,10 +1,11 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <assert.h>
 #include "declarations.h"
 #include "colorpairtostring.h"
 #include "GetColorFromPairNumber.h"
-#include "GetPairNumberFromColor.h"
+#include "GetPairNumberFromColor.h"*/
 #include "testNumberToPair.h"
+#include "testPairToNumber.h"
 
 /*enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
@@ -57,7 +58,7 @@ void testNumberToPair(int pairNumber,
     printf("Got pair %s\n", colorPairNames);
     assert(colorPair.majorColor == expectedMajor);
     assert(colorPair.minorColor == expectedMinor);
-}*/
+}
 
 void testPairToNumber(
     enum MajorColor major,
@@ -70,7 +71,7 @@ void testPairToNumber(
     int pairNumber = GetPairNumberFromColor(&colorPair);
     printf("Got pair number %d\n", pairNumber);
     assert(pairNumber == expectedPairNumber);
-}
+}*/
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
