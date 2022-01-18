@@ -9,7 +9,7 @@ void printManual(void)
  ColorPair colorPair ;
  char colorPairName[MAX_COLORPAIR_NAME_CHARS]; 
  
- printf("Reference Manual");
+ printf("Reference Manual\n");
  for (int pairNumber = 1; pairNumber <= 25; pairNumber ++)
     {
      colorPair = GetColorFromPairNumber(pairNumber);
