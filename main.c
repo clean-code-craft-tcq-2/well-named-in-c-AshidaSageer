@@ -1,10 +1,14 @@
 
 #include "testNumberToPair.h"
 #include "testPairToNumber.h"
+#include "printManual.h"
 
 
 
 int main() {
+    
+    printManual();
+    
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
