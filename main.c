@@ -4,6 +4,7 @@
 #include "colorpairtostring.h"
 #include "GetColorFromPairNumber.h"
 #include "GetPairNumberFromColor.h"
+#include "testNumberToPair.h"
 
 /*enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
@@ -44,7 +45,7 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
-}*/
+}
 
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
@@ -56,7 +57,7 @@ void testNumberToPair(int pairNumber,
     printf("Got pair %s\n", colorPairNames);
     assert(colorPair.majorColor == expectedMajor);
     assert(colorPair.minorColor == expectedMinor);
-}
+}*/
 
 void testPairToNumber(
     enum MajorColor major,
