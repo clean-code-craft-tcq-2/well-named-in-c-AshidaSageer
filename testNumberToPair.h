@@ -2,6 +2,8 @@
 #define TESTNUMBERTOPAIR_DOT_H
 
 #include "declarations.h"
-int GetPairNumberFromColor(const ColorPair* colorPair);
+void testNumberToPair(int pairNumber,
+    enum MajorColor expectedMajor,
+    enum MinorColor expectedMinor);
 
 #endif
