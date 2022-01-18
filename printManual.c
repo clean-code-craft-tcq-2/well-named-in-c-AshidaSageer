@@ -12,6 +12,6 @@ void printManual(void)
     {
      color = GetColorFromPairNumber(pair);
      ColorPairToString(&color, colorPairString);
-     printf("Pair No:%d \t --> %s\n",pair, colorPairString)
+     printf("Pair No:%d \t --> %s\n",pair, colorPairString);
     }
 }
