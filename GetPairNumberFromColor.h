@@ -2,6 +2,6 @@
 #define GETPAIRNUMBERFROMCOLOR_DOT_H
 
 #include "declarations.h"
-ColorPair GetColorFromPairNumber(int pairNumber);
+int GetPairNumberFromColor(const ColorPair* colorPair);
 
 #endif
