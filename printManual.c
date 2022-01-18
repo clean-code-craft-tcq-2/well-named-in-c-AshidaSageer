@@ -8,7 +8,8 @@ void printManual(void)
 {
  ColorPair color ;
  char colorPairString[MAX_COLORPAIR_NAME_CHARS];
-  for (int pair =0; pair <= 25; pair++)
+ int pair;
+ for (pair = 0; pair <= 25; pair++)
     {
      color = GetColorFromPairNumber(pair);
      ColorPairToString(&color, colorPairString);
