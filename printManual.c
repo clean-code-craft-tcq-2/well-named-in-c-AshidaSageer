@@ -6,13 +6,13 @@
 
 void printManual(void)
 {
- ColorPair color ;
- char colorPairString[MAX_COLORPAIR_NAME_CHARS];
- int pair = 0; 
- //for (int pair = 0; pair <= 25; pair++)
+ ColorPair colorPair ;
+ char colorPairName[MAX_COLORPAIR_NAME_CHARS];
+ int pairNumber = 0; 
+ //for (int pairNumber = 0; pairNumber <= 25; pairNumber ++)
     {
-     color = GetColorFromPairNumber(pair);
-     ColorPairToString(&color, colorPairString);
-     printf("Pair No:%d \t --> %s\n",pair, colorPairString);
+     colorPair = GetColorFromPairNumber(pairNumber);
+     ColorPairToString(&colorPair, colorPairName);
+     printf("Pair No:%d \t --> %s\n",pairNumber, colorPairName);
     }
 }
