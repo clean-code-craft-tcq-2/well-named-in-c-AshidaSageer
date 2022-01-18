@@ -13,6 +13,6 @@ void printManual(void)
     {
      colorPair = GetColorFromPairNumber(pairNumber);
      ColorPairToString(&colorPair, colorPairName);
-     printf("Pair No:%d \t --> %s\n",pairNumber, colorPairName);
+     //printf("Pair No:%d \t --> %s\n",pairNumber, colorPairName);
     }
 }
