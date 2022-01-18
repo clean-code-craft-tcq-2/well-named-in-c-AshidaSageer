@@ -12,7 +12,7 @@ void printManual(void)
  //for (int pairNumber = 0; pairNumber <= 25; pairNumber ++)
     {
      colorPair = GetColorFromPairNumber(pairNumber);
-     ColorPairToString(&colorPair, colorPairName);
+     //ColorPairToString(&colorPair, colorPairName);
      //printf("Pair No:%d \t --> %s\n",pairNumber, colorPairName);
     }
 }
